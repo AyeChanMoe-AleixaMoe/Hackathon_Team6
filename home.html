@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ticket Promos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="promo-container">
+
+    <div class="promo-card" onclick="goToBookingPage('single')">
+      <div class="label">SINGLE SEATER PROMO</div>
+      <a href="index.html"><img src="solo.jpg" alt="Single Seater" /></a>
+      <p>Best for individuals!!</p>
+      <div class="price">From $3</div>
+    </div>
+    
+    <div class="promo-card" onclick="goToBookingPage('duo')">
+      <div class="label">DUO SEATER PROMO</div>
+      <a href="index.html"><img src="duo.jpg" alt="Duo Seater" /></a>
+      <p>Best for 2 people!!</p>
+      <div class="price">From $5</div>
+    </div>
+    
+    <div class="promo-card" onclick="goToBookingPage('family')">
+      <div class="label">FAMILY BUNDLE</div>
+      <a href="index.html"><img src="family_bundle.jpeg" alt="Family Bundle" /></a>
+      <p>Best for 4 people!!</p>
+      <div class="price">From $9</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

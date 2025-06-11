@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  .title {
+    margin: 20px 0;
+    font-size: 2em;
+  }
+  
+  .promo-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .promo-card {
+    background-color: #1e1e1e;
+    color: white;
+    width: 280px;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease;
+  }
+  
+  .promo-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .promo-card .label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background-color: #fcdc58;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 0.9em;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    z-index: 1;
+  }
+  
+  .promo-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .promo-card .price {
+    padding: 15px;
+    font-size: 1.2em;
+  }
+  
+  .booking-section {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #fff;
+    border-top: 3px solid #ccc;
+  }
