@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* color: rgba(255, 255, 255, 0.87);
+    background-color: #000000; */
+}
+
+#app {
+    width: 75%;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#pixi-container {
+    width: 100%;
+}
+h1{
+    font-size: 36px;
+}
+p{
+    font-size: 20px;
+}
