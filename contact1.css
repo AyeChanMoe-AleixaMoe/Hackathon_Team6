@@ -1,0 +1,55 @@
+
+.container{
+    display:flow-root;
+    background-color:rgb(249, 249, 66);
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+
+}
+.abhaya-libre-extrabold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+
+.contact{
+    width:70%;
+    display:flex;
+    float:left;
+    flex-direction: column;
+    margin-left:10px;
+
+}
+
+#email{
+    position:relative;
+    margin-left:40px;
+    text-align:left;
+}
+
+#phone{
+    position:relative;
+    margin-left:40px;
+    text-align:left;
+}
+
+
+.icons{
+    float:left;
+    width:25%;
+    align-items: flex-start;
+    display:inline-bolck;
+
+
+}
+
+
+.social :hover{
+    color:lightgrey;
+    transition:100mx;
+
+}
+
+
