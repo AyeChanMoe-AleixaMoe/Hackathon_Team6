@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Booking System</title>
+  <link rel="stylesheet" href="book.css" />
+  <link rel="stylesheet" href="payment.css" />
+</head>
+<body>
+
+  <div id="booking-section">
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name" />
+
+    <label for="date">Select Date:</label>
+    <input type="date" id="date" />
+
+    <label for="time">Select Time:</label>
+    <select id="time">
+      <option value="10:00 - 11:00"> 10:00 AM - 11:00 AM</option>
+      <option value="11:00 - 12:00"> 11:00 AM - 12:00 PM</option>
+      <option value="14:00 - 15:00"> 2:00 PM - 3:00 PM</option>
+      <option value="15:00 - 16:00"> 3:00 PM - 4:00 PM</option>
+      <option value="16:00 - 17:00"> 4:00 PM - 5:00 PM</option>
+      <option value="17:00 - 18:00"> 5:00 PM - 6:00 PM</option>
+      <option value="18:00 - 19:00"> 6:00 PM - 7:00 PM</option>  
+    </select>
+
+    <button class="book-now-btn" onclick="togglePayment()">Book Now!</button>
+  </div>
+
+  <div id="payment-section" class="hidden">
+    <div class="payment-container">
+      <div class="payment-header">
+        <div>Theatre</div>
+        <div>Order №0000001</div>
+      </div>
+
+      <div class="amount">9.00 $</div>
+
+      <div class="card-section">
+        <label for="card-number">Pay by bank card</label>
+        <input class="card-input" type="text" id="card-number" placeholder="Card number" />
+        <button id="submit-payment" onclick="submitPayment()">Enter</button>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="other-methods-label">Other payment methods</div>
+
+      <div class="payment-options">
+        <div class="payment-button apple"> Pay</div>
+        <div class="payment-button stripe">Stripe</div>
+        <div class="payment-button paypal">PayPal</div>
+        <div class="payment-button bitcoin">₿</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
