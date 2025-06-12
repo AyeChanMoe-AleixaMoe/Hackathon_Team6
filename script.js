@@ -17,7 +17,7 @@ function submitPayment() {
     alert("Please enter your card number.");
     return;
   }
-  // Redirect to confirmation page
+
   window.location.href = 'confirmation.html';
 }
 
