@@ -1,0 +1,92 @@
+.payment-container {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .payment-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .amount {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .card-section label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .card-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  #submit-payment {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #submit-payment:hover {
+    background-color: #45a049;
+  }
+  
+  .divider {
+    height: 1px;
+    background: #ccc;
+    margin: 15px 0;
+  }
+  
+  .other-methods-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .payment-options {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-button {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .payment-button.apple {
+    background: #000;
+    color: white;
+  }
+  
+  .payment-button.stripe {
+    background: #6772e5;
+    color: white;
+  }
+  
+  .payment-button.paypal {
+    background: #003087;
+    color: white;
+  }
+  
+  .payment-button.bitcoin {
+    background: #f7931a;
+    color: white;
+  }
