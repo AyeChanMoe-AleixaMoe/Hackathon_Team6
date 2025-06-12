@@ -95,6 +95,11 @@
       margin-bottom: 20px;
     }
 
+    .section-inner {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
     .content-container {
       display: flex;
       flex-wrap: wrap;
@@ -189,13 +194,16 @@
   sections.forEach(section => {
     const html = `
       <div class="section">
-        <h2>${section.title}</h2>
-        <div class="content-container">
-          <div class="text">${section.text}</div>
-          <img src="${section.img}" alt="Section image">
+        <div class="section-inner">
+          <h2>${section.title}</h2>
+          <div class="content-container">
+            <div class="text">${section.text}</div>
+            <img src="${section.img}" alt="Section image">
+          </div>
         </div>
       </div>
-    `;
+`;
+
     container.innerHTML += html;
   });
 </script>
