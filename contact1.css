@@ -1,55 +1,76 @@
-
-.container{
-    display:flow-root;
-    background-color:rgb(249, 249, 66);
-    margin:0;
-    padding:0;
-    box-sizing:border-box
-
-}
-.abhaya-libre-extrabold {
-    font-family: "Abhaya Libre", serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-
-.contact{
-    width:70%;
-    display:flex;
-    float:left;
-    flex-direction: column;
-    margin-left:10px;
-
+body {
+  background-image: url("https://apsaratheatre.asia/wp-content/uploads/2020/02/Theatre-Dining-Room.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 800;
 }
 
-#email{
-    position:relative;
-    margin-left:40px;
-    text-align:left;
-}
-
-#phone{
-    position:relative;
-    margin-left:40px;
-    text-align:left;
+.contact-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px 60px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  max-width: 420px;
+  width: 90%;
+  border: 3px solid #583d09; /* Elegant yellow lining */
 }
 
 
-.icons{
-    float:left;
-    width:25%;
-    align-items: flex-start;
-    display:inline-bolck;
-
-
+.contact-card h2 {
+  font-size: 26px;
+  margin-bottom: 18px;
+  color: #333333;
 }
 
-
-.social :hover{
-    color:lightgrey;
-    transition:100mx;
-
+.contact-card p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #555555;
 }
+
+.contact-card a {
+  text-decoration: none;
+  color: #333333;
+  transition: color 0.3s ease;
+}
+
+.contact-card a:hover {
+  color: #a67c52;
+}
+
+.contact-card h3 {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #444444;
+}
+
+.social-icons {
+  margin-top: 12px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #222222;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #a67c52;
+}
+
+.contact-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
 
 
